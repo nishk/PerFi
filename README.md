@@ -21,7 +21,7 @@ Ensure you have Python 3 installed. You will also need a Google Cloud project wi
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/PerFi.git
+   git clone https://github.com/nishk/PerFi.git
    cd PerFi
    
 Install the required Python packages using pip and the requirements.txt file:
@@ -29,9 +29,9 @@ Install the required Python packages using pip and the requirements.txt file:
    pip install -r requirements.txt
 
 Google Sheets API Setup (Optional):
-	•	Enable the Google Sheets API in your Google Cloud project.
-	•	Create a service account and download the JSON credentials file.
-	•	Share your Google Sheet with the service account email.
+	Enable the Google Sheets API in your Google Cloud project.
+	Create a service account and download the JSON credentials file.
+	Share your Google Sheet with the service account email.
 
 Update input.yaml file with the following structure:
   file_path: "/path/to/save/excel/files/"
