@@ -6,7 +6,7 @@ The goal is to make financial insights actionable and visualizations simple whil
 
 Most brokerages offer features to ensure that your contributions remain within the IRS limits. However, this can become complicated if you change jobs during the year.
 
-PerFi v1 lets you track HSA & 401K contibutions and comparison against the IRS limit
+PerFi v1 lets you track HSA & 401K contibutions and comparison against the IRS limit for 2024 & 2025.
 
 ## Features
 
@@ -20,7 +20,9 @@ PerFi v1 lets you track HSA & 401K contibutions and comparison against the IRS l
 
 ### Prerequisites
 
-Ensure you have Python 3 installed. You will also need a Google Cloud project with access to the Google Sheets API and a service account for authentication.
+- Ensure you have Python 3 installed.
+- Works best if you have MS Excel installed
+- Also works with Google sheets with extra work of Google Cloud project with access to the Google Sheets API and a service account for authentication.
 
 ### Installation
 
