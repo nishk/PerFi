@@ -11,8 +11,9 @@ PerFi v1 lets you track HSA & 401K contibutions and comparison against the IRS l
 ## Features
 
 - Calculates remaining or exceeded contributions for HSA and 401(k).
+- Supports Individual and Family contributions.
 - Generates and updates an Excel file with contribution data.
-- Updates a Google Sheet with contribution data.
+- Updates Google Sheet with contribution data.
 - Highlights exceeded contributions with a red fill.
 - Automatically resizes columns for optimal viewing.
 
@@ -32,16 +33,16 @@ PerFi v1 lets you track HSA & 401K contibutions and comparison against the IRS l
    git clone https://github.com/nishk/PerFi.git
    cd PerFi
    
-Install the required Python packages using pip and the requirements.txt file:
+2. Install the required Python packages using pip and the requirements.txt file:
    
    pip install -r requirements.txt
 
-Google Sheets API Setup (Optional):
+3. Google Sheets API Setup (Optional):
 	Enable the Google Sheets API in your Google Cloud project.
 	Create a service account and download the JSON credentials file.
 	Share your Google Sheet with the service account email.
 
-Update input.yaml file with the following structure:
+4. Update input.yaml file with the following structure:
 
 
   file_path: "/path/to/save/excel/files/"
