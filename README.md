@@ -1,6 +1,11 @@
 # PerFi
 PerFi is a Python-based tool designed to help users track their investments. 
-The goal is to maximize visualizations and insights while minimizing manual boredom inducing excel sheet tracking
+The goal is to make financial insights actionable and visualizations simple while reducing hassle and boredom.
+
+# Motivation
+
+Most brokerages offer features to ensure that your contributions remain within the IRS limits. However, this can become complicated if you change jobs during the year.
+PerFi v1 lets you track HSA & 401K contibutions and comparison against the IRS limit
 
 ## Features
 
