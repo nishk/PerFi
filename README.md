@@ -42,8 +42,14 @@ Google Sheets API Setup (Optional):
 	Share your Google Sheet with the service account email.
 
 Update input.yaml file with the following structure:
+
+
   file_path: "/path/to/save/excel/files/"
+
+
   google_sheet_url: "https://docs.google.com/spreadsheets/d/your_google_sheet_id/edit"
+
+
   credentials_file: "/path/to/your/service_account_credentials.json"
 
 **Usage**
